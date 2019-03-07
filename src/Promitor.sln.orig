@@ -34,16 +34,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Promitor.Core.Scraping", "P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Promitor.Core", "Promitor.Core\Promitor.Core.csproj", "{FCFD60ED-3389-42A1-9B1A-4F2D30DCDA8B}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promitor.Integrations.AzureStorage", "Promitor.Integrations.AzureStorage\Promitor.Integrations.AzureStorage.csproj", "{F929434C-07FB-4B55-A8EE-5C77D8B49809}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B65C1C71-7334-4B28-B42E-EA5924CEAA84}"
 	ProjectSection(SolutionItems) = preProject
 		Promitor.sln.DotSettings = Promitor.sln.DotSettings
 	EndProjectSection
-EndProject
+=======
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Function", "Function", "{CE4B1852-CE2B-478F-B205-BE67946D80A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promitor.CosmosDb.Exporter", "Promitor.CosmosDb.Exporter\Promitor.CosmosDb.Exporter.csproj", "{02B05210-0D57-442F-B094-AECAFB9994D7}"
+>>>>>>> function pumping raw EH message data in to Cosmos. Next: wire up prometheus format
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -78,14 +80,17 @@ Global
 		{FCFD60ED-3389-42A1-9B1A-4F2D30DCDA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCFD60ED-3389-42A1-9B1A-4F2D30DCDA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCFD60ED-3389-42A1-9B1A-4F2D30DCDA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{F929434C-07FB-4B55-A8EE-5C77D8B49809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F929434C-07FB-4B55-A8EE-5C77D8B49809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F929434C-07FB-4B55-A8EE-5C77D8B49809}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F929434C-07FB-4B55-A8EE-5C77D8B49809}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
 		{02B05210-0D57-442F-B094-AECAFB9994D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{02B05210-0D57-442F-B094-AECAFB9994D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B05210-0D57-442F-B094-AECAFB9994D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02B05210-0D57-442F-B094-AECAFB9994D7}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> function pumping raw EH message data in to Cosmos. Next: wire up prometheus format
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,8 +106,11 @@ Global
 		{59D7FFBC-3929-48AD-8C9C-242280D01CBD} = {9D006E55-567F-4521-9366-490679CA00BF}
 		{C3ADE514-95AD-4FDD-8577-45F7EADB4A23} = {05524B1B-9965-4E36-9626-A2823B8588AA}
 		{FCFD60ED-3389-42A1-9B1A-4F2D30DCDA8B} = {05524B1B-9965-4E36-9626-A2823B8588AA}
+<<<<<<< HEAD
 		{F929434C-07FB-4B55-A8EE-5C77D8B49809} = {59D7FFBC-3929-48AD-8C9C-242280D01CBD}
+=======
 		{02B05210-0D57-442F-B094-AECAFB9994D7} = {CE4B1852-CE2B-478F-B205-BE67946D80A6}
+>>>>>>> function pumping raw EH message data in to Cosmos. Next: wire up prometheus format
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B47A777A-C793-453F-8F4F-7703551DFC4C}
