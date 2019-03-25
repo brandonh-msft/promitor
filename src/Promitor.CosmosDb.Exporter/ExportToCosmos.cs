@@ -20,7 +20,7 @@ namespace Promitor.CosmosDb.Exporter
         {
             var exceptions = new List<Exception>();
 
-            foreach (EventData eventData in events)
+            foreach (var eventData in events)
             {
                 try
                 {
@@ -30,11 +30,13 @@ namespace Promitor.CosmosDb.Exporter
                     {
                         try
                         {
+                            log.LogInformation($"Processing message: {r}");
                             await cosmos.AddAsync(r);
-                            log.LogInformation($"C# Event Hub trigger function processed a message: {r}");
+                            log.LogInformation(@"Successful.");
                         }
-                        catch (Exception)
+                        catch (Exception e)
                         {
+                            log.LogError(e, $@"Failed: {e.Message}");
                         }
                     }
 
